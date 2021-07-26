@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Title -->
+    <title>Penguin Commerce</title>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="icons/shopping-cart 1.png" type="image/x-icon">
+
+    <!-- Tailwind CSS Stylesheet -->
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+
+
+    <!-- Custom Style -->
+    <style>
+        /* Google Font */
+        @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+        body {
+            font-family: 'Bebas Neue', cursive;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Header Section -->
+    <header class="bg-yellow-200 lg:h-screen">
+
+        <!-- Navigation Bar -->
+        <nav class="container 2xl:w-4/5 mx-auto flex flex-col md:flex-row justify-between">
+            <!-- Navbar Brand -->
+            <a href="#"><img class="w-40 pt-5" src="icons/logo.png" alt=""></a>
+
+            <!-- Navbar Items -->
+            <ul class="flex flex-col md:flex-row gap-x-4 pt-5">
+                <li>Home</li>
+                <li>Product</li>
+                <li>About us</li>
+                <li>Contact us</li>
+            </ul>
+        </nav>
+
+
+        <!-- Hero Section -->
+        <section class="container 2xl:w-4/5 mx-auto flex flex-col lg:flex-row justify-between items-center lg:h-full">
+            <div>
+                <h1 class="lg:text-7xl text-6xl">
+                    <span class="text-yellow-500">Be the penguins</span><br>
+                    <span class="text-gray-800">of
+                        water</span>
+                </h1>
+                <p>Lorem Ipsum is simply dummy text of the printing <br>
+                    and
+                    typesetting industry.
+                </p>
+
+                <button class="px-8 py-3 bg-green-600 rounded-2xl mt-6">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 inline" viewBox="0 0 20 20"
+                        fill="currentColor">
+                        <path
+                            d="M3 1a1 1 0 000 2h1.22l.305 1.222a.997.997 0 00.01.042l1.358 5.43-.893.892C3.74 11.846 4.632 14 6.414 14H15a1 1 0 000-2H6.414l1-1H14a1 1 0 00.894-.553l3-6A1 1 0 0017 3H6.28l-.31-1.243A1 1 0 005 1H3zM16 16.5a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0zM6.5 18a1.5 1.5 0 100-3 1.5 1.5 0 000 3z" />
+                    </svg>
+                    Buy NOw</button>
+            </div>
+
+            <div class="w-96 mb-10">
+                <img src="images/model.png" alt="Penguin Commerce Model">
+            </div>
+        </section>
+    </header>
+</body>
+
+</html>
